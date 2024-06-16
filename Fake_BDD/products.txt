@@ -1,0 +1,8 @@
+prod 6|500|./images/articles/product(6).jpg
+pro7|400|./images/articles/product(7).jpg
+habit|100|./images/articles/product(1).jpg
+fgh|1234|./images/articles/product(8).jpg
+fghj|600|./images/articles/product(4).jpg
+fghj|600|./images/articles/product(4).jpg
+fghj|600|./images/articles/product(4).jpg
+def|300|./images/articles/product(6).jpg

@@ -1,0 +1,107 @@
+/* Général */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f8f9fa; /* Couleur de fond claire */
+  color: #343a40; /* Texte gris foncé */
+}
+
+.navbar {
+  background-color: #1f1f1f; /* Noir foncé pour le navbar */
+  border-bottom: 2px solid #cda34f; /* Ligne dorée en bas */
+}
+
+.navbar-brand, .nav-link {
+  color: #f8f9fa !important; /* Texte blanc */
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #cda34f !important; /* Texte doré au survol */
+}
+
+.buy-button {
+  background-color: #cda34f; /* Bouton doré */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+  background-color: #b38e3b; /* Bouton doré foncé au survol */
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: white;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #343a40; /* Gris foncé */
+  margin: 10px 0;
+}
+
+.product-price {
+  font-size: 1.1rem;
+  color: #6c757d; /* Gris moyen */
+  margin-bottom: 10px;
+}
+
+.figure-img {
+  width: 100%;
+  max-height: auto;
+  object-fit: contain;
+  background: #f8f9fa;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.figure-caption {
+  padding: 10px;
+  text-align: center;
+}
+
+#articles {
+  margin-top: 7%;
+}
+
+/* Ajout des styles pour les formulaires */
+.form-control, .btn {
+  border-radius: 50px;
+}
+
+.form-control {
+  border: 2px solid #cda34f;
+}
+
+.form-control:focus {
+  border-color: #b38e3b;
+  box-shadow: none;
+}
+
+.btn-outline-success {
+  color: #cda34f;
+  border-color: #cda34f;
+}
+
+.btn-outline-success:hover {
+  background-color: #cda34f;
+  color: white;
+  border-color: #cda34f;
+}
